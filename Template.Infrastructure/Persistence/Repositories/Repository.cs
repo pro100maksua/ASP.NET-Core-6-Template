@@ -1,8 +1,8 @@
 ﻿using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
-using Template.Application.InterfacesRepository;
+using $ext_safeprojectname$.Application.InterfacesRepository;
 
-namespace Template.Infrastructure.Persistence.Repositories;
+namespace $ext_safeprojectname$.Infrastructure.Persistence.Repositories;
 
 public class Repository<TEntity> : IRepository<TEntity>
     where TEntity : class

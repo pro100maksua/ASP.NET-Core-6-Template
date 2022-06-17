@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Template.Domain.Common;
+using $ext_safeprojectname$.Domain.Common;
 
-namespace Template.Infrastructure.Persistence.Configurations;
+namespace $ext_safeprojectname$.Infrastructure.Persistence.Configurations;
 
 public class AuditableEntityConfiguration<TEntity> : IEntityTypeConfiguration<TEntity>
     where TEntity : AuditableEntity

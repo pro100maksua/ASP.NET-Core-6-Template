@@ -1,6 +1,6 @@
-﻿using Template.Application.InterfacesRepository;
+﻿using $ext_safeprojectname$.Application.InterfacesRepository;
 
-namespace Template.Infrastructure.Persistence.Repositories;
+namespace $ext_safeprojectname$.Infrastructure.Persistence.Repositories;
 
 public class UnitOfWork : IUnitOfWork
 {

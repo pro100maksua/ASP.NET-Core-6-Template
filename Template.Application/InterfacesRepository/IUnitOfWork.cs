@@ -1,4 +1,4 @@
-﻿namespace Template.Application.InterfacesRepository;
+﻿namespace $ext_safeprojectname$.Application.InterfacesRepository;
 
 public interface IUnitOfWork
 {

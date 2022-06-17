@@ -1,7 +1,7 @@
 ﻿using System.Security.Claims;
-using Template.Application.Interfaces;
+using $ext_safeprojectname$.Application.Interfaces;
 
-namespace Template.Api.Services;
+namespace $ext_safeprojectname$.Api.Services;
 
 public class CurrentUserService : ICurrentUserService
 {

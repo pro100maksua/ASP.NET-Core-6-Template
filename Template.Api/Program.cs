@@ -1,5 +1,5 @@
-using Template.Api;
-using Template.Api.Middleware;
+using $ext_safeprojectname$.Api;
+using $ext_safeprojectname$.Api.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 

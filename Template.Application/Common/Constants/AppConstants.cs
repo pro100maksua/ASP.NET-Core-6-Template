@@ -1,4 +1,4 @@
-﻿namespace Template.Application.Common.Constants;
+﻿namespace $ext_safeprojectname$.Application.Common.Constants;
 
 public static class AppConstants
 {

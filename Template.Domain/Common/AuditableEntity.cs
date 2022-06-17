@@ -1,4 +1,4 @@
-﻿namespace Template.Domain.Common;
+﻿namespace $ext_safeprojectname$.Domain.Common;
 
 public abstract class AuditableEntity
 {

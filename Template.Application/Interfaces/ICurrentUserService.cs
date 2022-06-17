@@ -1,4 +1,4 @@
-﻿namespace Template.Application.Interfaces;
+﻿namespace $ext_safeprojectname$.Application.Interfaces;
 
 public interface ICurrentUserService
 {

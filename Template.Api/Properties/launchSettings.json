@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "Template.Api": {
+    "$ext_safeprojectname$.Api": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

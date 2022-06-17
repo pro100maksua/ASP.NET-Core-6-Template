@@ -17,8 +17,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Template.Application\Template.Application.csproj" />
-    <ProjectReference Include="..\Template.Infrastructure\Template.Infrastructure.csproj" />
+    <ProjectReference Include="..\$ext_safeprojectname$.Application\$ext_safeprojectname$.Application.csproj" />
+    <ProjectReference Include="..\$ext_safeprojectname$.Infrastructure\$ext_safeprojectname$.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

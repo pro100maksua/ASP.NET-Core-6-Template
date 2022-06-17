@@ -1,4 +1,4 @@
-﻿namespace Template.Application.Common.Dtos;
+﻿namespace $ext_safeprojectname$.Application.Common.Dtos;
 
 public class ResponseDto<T>
 {

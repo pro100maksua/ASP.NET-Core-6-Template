@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace Template.Api.Middleware;
+namespace $ext_safeprojectname$.Api.Middleware;
 
 public class LoggingMiddleware
 {

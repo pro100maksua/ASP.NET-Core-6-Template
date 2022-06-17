@@ -1,8 +1,8 @@
 ﻿using System.Reflection;
 using Microsoft.EntityFrameworkCore;
-using Template.Infrastructure.Persistence.Interceptors;
+using $ext_safeprojectname$.Infrastructure.Persistence.Interceptors;
 
-namespace Template.Infrastructure.Persistence;
+namespace $ext_safeprojectname$.Infrastructure.Persistence;
 public class ApplicationDbContext : DbContext
 {
      

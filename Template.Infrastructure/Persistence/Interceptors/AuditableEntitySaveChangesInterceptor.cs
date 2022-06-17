@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Diagnostics;
-using Template.Application.Interfaces;
-using Template.Domain.Common;
+using $ext_safeprojectname$.Application.Interfaces;
+using $ext_safeprojectname$.Domain.Common;
 
-namespace Template.Infrastructure.Persistence.Interceptors;
+namespace $ext_safeprojectname$.Infrastructure.Persistence.Interceptors;
 
 public class AuditableEntitySaveChangesInterceptor : SaveChangesInterceptor
 {

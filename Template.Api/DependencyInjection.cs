@@ -8,16 +8,16 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
 using FluentValidation;
-using Template.Api.Services;
-using Template.Application.Common.Constants;
-using Template.Application.Common.Mappings;
-using Template.Application.Interfaces;
-using Template.Application.InterfacesRepository;
-using Template.Infrastructure.Persistence;
-using Template.Infrastructure.Persistence.Interceptors;
-using Template.Infrastructure.Persistence.Repositories;
+using $ext_safeprojectname$.Api.Services;
+using $ext_safeprojectname$.Application.Common.Constants;
+using $ext_safeprojectname$.Application.Common.Mappings;
+using $ext_safeprojectname$.Application.Interfaces;
+using $ext_safeprojectname$.Application.InterfacesRepository;
+using $ext_safeprojectname$.Infrastructure.Persistence;
+using $ext_safeprojectname$.Infrastructure.Persistence.Interceptors;
+using $ext_safeprojectname$.Infrastructure.Persistence.Repositories;
 
-namespace Template.Api;
+namespace $ext_safeprojectname$.Api;
 
 public static class DependencyInjection
 {
